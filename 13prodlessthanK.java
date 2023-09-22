@@ -4,6 +4,11 @@ class Solution {
         int i=0;
         int prod=1;
         int cnt=0;
+        /*
+        using the concept of sliding window rest of the solution is easy to understanndd
+        just go throw this with diffrent test cases and u got it
+        
+        */
 
         for(int j=0;j<n;j++){
             prod*=nums[j];
