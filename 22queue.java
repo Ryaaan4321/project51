@@ -10,6 +10,7 @@ class Solution {
                 l1.add(student);
             }
         }
+	    
         int i=0;
         while(!(l0.isEmpty() && l1.isEmpty())){
             if(sandwiches[i]==0 && !l0.isEmpty())
